@@ -1,0 +1,6 @@
+# General
+.*
+!.github
+!.gitignore
+*.local.*
+sandbox
