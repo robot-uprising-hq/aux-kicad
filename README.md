@@ -1,3 +1,7 @@
-# Generic Template
+# KiCad Libraries
 
-Generic template for creating a repository
+- Symbol library
+- Datasheet library
+- Footprint library
+- 3D-model library
+- Worksheet
