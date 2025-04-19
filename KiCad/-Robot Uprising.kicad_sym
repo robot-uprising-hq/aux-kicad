@@ -56,7 +56,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-005-THM/Linx/view-part/?ref=snap"
-			(at 0.254 3.048 0)
+			(at -0.254 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			)
 		)
 		(property "Description_1" "Battery Holder Coin 20 THM Nickel"
-			(at 0 5.334 0)
+			(at 0.762 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,7 +148,7 @@
 		(symbol "BAT-HLD-005-THM_0_0"
 			(polyline
 				(pts
-					(xy -3.175 2.54) (xy -1.905 2.54)
+					(xy -1.905 2.54) (xy -0.635 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -160,7 +160,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 3.175) (xy -2.54 1.905)
+					(xy -1.27 3.175) (xy -1.27 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -172,7 +172,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 1.27)
+					(xy -1.27 -1.27) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -184,7 +184,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 2.54) (xy -1.27 -2.54)
+					(xy 0 2.54) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -196,7 +196,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -2.54 0)
+					(xy 0 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -218,23 +218,11 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 2.54 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "BAT-HLD-005-THM_1_0"
 			(pin passive line
-				(at -3.81 1.27 0)
-				(length 1.27)
+				(at -5.08 1.27 0)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
@@ -242,7 +230,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "P1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -251,8 +239,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -1.27 0)
-				(length 1.27)
+				(at -5.08 -1.27 0)
+				(length 3.81)
 				(name "~"
 					(effects
 						(font
@@ -260,7 +248,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "P2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -269,7 +257,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 2.54 0 180)
 				(length 1.27)
 				(name "~"
 					(effects
@@ -278,7 +266,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "N"
 					(effects
 						(font
 							(size 1.016 1.016)
