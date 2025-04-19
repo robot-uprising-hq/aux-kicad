@@ -1,4 +1,4 @@
-(footprint "SW_TS02-66-70-BK-160-LCR-D"
+(footprint "S_TS02-66-70-BK-160-LCR-D"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_TS02-66-70-BK-160-LCR-D"
+	(property "Value" "S_TS02-66-70-BK-160-LCR-D"
 		(at 12.256 4.889 0)
 		(layer "F.Fab")
 		(uuid "f781614d-5ea7-4d60-839a-580a2d7c10a8")
@@ -229,7 +229,7 @@
 		(uuid "98251564-87c0-44b2-bc33-23a51b010299")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_RU}/3D/TS02-66-70-BK-160-LCR-D.step"
+	(model "${KIPRJMOD}/Libraries/3D-models/TS02-66-70-BK-160-LCR-D.step"
 		(offset
 			(xyz 0 0 0)
 		)
