@@ -1,6 +1,10 @@
 # General
 .*
-!.github
 !.gitignore
-*.local.*
-sandbox
+
+# KiCad
+*-backups
+*.bak
+*.kicad_prl
+~*.lck
+\#auto_saved_files\#
