@@ -29,7 +29,8 @@ jobs:
     - name: Merge
       uses: lime-actions/merge@v1
       with:
-        version-from: version.txt
+        version-from: version-file
+        version-source: version.txt
         merge-mode-other: rebase
         merge-mode-fallback: merge
     - name: Merge back
