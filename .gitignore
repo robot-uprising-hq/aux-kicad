@@ -1,6 +1,21 @@
 # General
 .*
-!.github
+
+
+# Git
+
 !.gitignore
-*.local.*
-sandbox
+!.gitkeep
+!.gitmodules
+
+## Github
+
+!.github
+
+# KiCad
+
+*-backups
+*.bak
+*.kicad_prl
+~*.lck
+\#auto_saved_files\#
