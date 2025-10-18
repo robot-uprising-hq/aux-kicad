@@ -258,7 +258,7 @@
 		(uuid "e65b1c8f-163f-4710-881d-31f0bcae6f31")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/3D-models/BAT-HLD-005-THM.step"
+	(model "${KIPRJMOD}/Libraries/Robot Uprising.pretty/3D-models/BAT-HLD-005-THM.step"
 		(offset
 			(xyz 0 0 0)
 		)
