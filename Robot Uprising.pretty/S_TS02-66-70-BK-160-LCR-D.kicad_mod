@@ -229,7 +229,7 @@
 		(uuid "98251564-87c0-44b2-bc33-23a51b010299")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/3D-models/TS02-66-70-BK-160-LCR-D.step"
+	(model "${KIPRJMOD}/Libraries/Robot Uprising.pretty/3D-models/TS02-66-70-BK-160-LCR-D.step"
 		(offset
 			(xyz 0 0 0)
 		)

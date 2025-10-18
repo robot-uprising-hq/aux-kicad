@@ -1,8 +1,19 @@
 # General
 .*
+
+
+# Git
+
 !.gitignore
+!.gitkeep
+!.gitmodules
+
+## Github
+
+!.github
 
 # KiCad
+
 *-backups
 *.bak
 *.kicad_prl
